@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="First Response Car Detailing - Professional auto detailing services. We provide exterior and interior detailing, paint correction, ceramic coating, and more. Call us today for a free quote!" />
+  <meta name="keywords" content="car detailing, auto detailing, paint correction, ceramic coating, interior detailing, exterior detailing" />
+  <meta name="author" content="First Response Car Detailing" />
+  <meta property="og:title" content="First Response Car Detailing | Professional Auto Detailing" />
+  <meta property="og:description" content="Professional car detailing services. Exterior, interior, paint correction, ceramic coating &amp; more. Get a free quote today!" />
+  <meta property="og:type" content="website" />
+  <title>First Response Car Detailing | Professional Auto Detailing</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%23e63946'/><text y='.9em' font-size='80' x='10'>🚗</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="32" height="32" rx="6" fill="#e63946"/>
+            <path d="M5 20L8 13h16l3 7H5z" fill="white"/>
+            <path d="M8 13l3-5h10l3 5" fill="white" opacity="0.7"/>
+            <circle cx="10" cy="21" r="2.5" fill="#1a1a2e"/>
+            <circle cx="22" cy="21" r="2.5" fill="#1a1a2e"/>
+          </svg>
+        </span>
+        <span class="nav__logo-text">First Response<br /><span class="nav__logo-sub">Car Detailing</span></span>
+      </a>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+        <li class="nav__item"><a href="#why-us" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#testimonials" class="nav__link">Reviews</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        <li class="nav__item nav__item--cta">
+          <a href="tel:+15104550100" class="btn btn--primary btn--sm">Call Now</a>
+        </li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <img
+          src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=1920&q=80&auto=format&fit=crop"
+          alt="Professional car detailing - gleaming clean vehicle after expert detailing service"
+          class="hero__bg-img"
+          loading="eager"
+        />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content container">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Professional Auto Detailing
+        </div>
+        <h1 class="hero__title">
+          First Response<br />
+          <span class="hero__title-accent">Car Detailing</span>
+        </h1>
+        <p class="hero__tagline">
+          Precision detailing. Unmatched results. We treat every vehicle like it's our own — restoring the shine, protecting the finish, and delivering a showroom-quality clean every time.
+        </p>
+        <div class="hero__actions">
+          <a href="tel:+15104550100" class="btn btn--primary btn--lg">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now
+          </a>
+          <a href="#services" class="btn btn--outline btn--lg">
+            View Our Services
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-number">500+</span>
+            <span class="hero__stat-label">Vehicles Detailed</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">5★</span>
+            <span class="hero__stat-label">Avg. Rating</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">100%</span>
+            <span class="hero__stat-label">Satisfaction</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#services" class="hero__scroll" aria-label="Scroll to services">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What We Offer</span>
+          <h2 class="section-title">Our Detailing Services</h2>
+          <p class="section-subtitle">From a thorough hand wash to a full paint correction and ceramic coating — we have the right package for every vehicle and every budget.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service-card">
+            <div class="service-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=600&q=80&auto=format&fit=crop"
+                alt="Professional exterior car detailing - washing and polishing vehicle exterior"
+                class="service-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <h3 class="service-card__title">Exterior Detail</h3>
+              <p class="service-card__desc">Full exterior hand wash, clay bar decontamination, machine polish, and premium carnauba wax. Your paint will gleam like new.</p>
+              <ul class="service-card__list">
+                <li>Hand wash &amp; dry</li>
+                <li>Clay bar treatment</li>
+                <li>One-step machine polish</li>
+                <li>Carnauba wax protection</li>
+                <li>Tire &amp; trim dressing</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost">Get a Quote</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80&auto=format&fit=crop"
+                alt="Car interior detailing - deep cleaning seats, dashboard, and carpets"
+                class="service-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+              <h3 class="service-card__title">Interior Detail</h3>
+              <p class="service-card__desc">Complete interior rejuvenation including deep vacuum, steam cleaning, leather conditioning, and odor elimination.</p>
+              <ul class="service-card__list">
+                <li>Deep vacuum &amp; steam clean</li>
+                <li>Leather &amp; vinyl conditioning</li>
+                <li>Carpet shampoo &amp; extraction</li>
+                <li>Dashboard &amp; console detail</li>
+                <li>Odor elimination treatment</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost">Get a Quote</a>
+            </div>
+          </article>
+
+          <article class="service-card service-card--featured">
+            <div class="service-card__badge">Most Popular</div>
+            <div class="service-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=600&q=80&auto=format&fit=crop"
+                alt="Full car detail package - complete interior and exterior detailing service"
+                class="service-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <h3 class="service-card__title">Full Detail Package</h3>
+              <p class="service-card__desc">The ultimate treatment — everything in our Exterior and Interior packages combined for a complete showroom transformation.</p>
+              <ul class="service-card__list">
+                <li>Complete exterior detail</li>
+                <li>Full interior deep clean</li>
+                <li>Engine bay clean</li>
+                <li>Glass polish &amp; treatment</li>
+                <li>Door jamb detailing</li>
+              </ul>
+              <a href="#contact" class="btn btn--primary">Get a Quote</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop"
+                alt="Paint correction service - removing swirl marks and scratches from car paint"
+                class="service-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="service-card__title">Paint Correction</h3>
+              <p class="service-card__desc">Multi-stage machine polishing to eliminate swirl marks, light scratches, water spots, and oxidation — restoring true paint clarity.</p>
+              <ul class="service-card__list">
+                <li>Swirl &amp; scratch removal</li>
+                <li>Water spot elimination</li>
+                <li>Oxidation correction</li>
+                <li>Multi-stage machine polish</li>
+                <li>Paint finish inspection</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost">Get a Quote</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600&q=80&auto=format&fit=crop"
+                alt="Ceramic coating application - long-lasting paint protection coating for vehicle"
+                class="service-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <h3 class="service-card__title">Ceramic Coating</h3>
+              <p class="service-card__desc">Professional-grade ceramic coating that bonds to your paint, providing years of hydrophobic protection, UV resistance, and gloss enhancement.</p>
+              <ul class="service-card__list">
+                <li>Paint decontamination prep</li>
+                <li>Professional-grade coating</li>
+                <li>2–5 year protection</li>
+                <li>Hydrophobic self-cleaning effect</li>
+                <li>UV &amp; chemical resistance</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost">Get a Quote</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__img-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1635073908681-b3de00fcf54e?w=600&q=80&auto=format&fit=crop"
+                alt="Engine bay cleaning and detailing service for vehicle engine compartment"
+                class="service-card__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-card__body">
+              <div class="service-card__icon">
+                <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+              </div>
+              <h3 class="service-card__title">Engine Bay Cleaning</h3>
+              <p class="service-card__desc">Safe and thorough engine bay degreasing and detailing to remove built-up grime — improving appearance and making leaks easier to spot.</p>
+              <ul class="service-card__list">
+                <li>Engine degreasing</li>
+                <li>Safe pressure rinse</li>
+                <li>Plastic &amp; rubber dressing</li>
+                <li>Component detailing</li>
+                <li>Corrosion inspection</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost">Get a Quote</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="services__cta">
+          <p>Not sure which package is right for you?</p>
+          <a href="#contact" class="btn btn--primary btn--lg">Get a Free Consultation</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-us" id="why-us">
+      <div class="container">
+        <div class="why-us__grid">
+          <div class="why-us__images">
+            <div class="why-us__img-main">
+              <img
+                src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=700&q=80&auto=format&fit=crop"
+                alt="First Response Car Detailing professional at work, carefully detailing a vehicle"
+                loading="lazy"
+              />
+            </div>
+            <div class="why-us__img-accent">
+              <img
+                src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=400&q=80&auto=format&fit=crop"
+                alt="Detail-oriented car cleaning with professional equipment and premium products"
+                loading="lazy"
+              />
+            </div>
+            <div class="why-us__experience-badge">
+              <span class="why-us__exp-number">5+</span>
+              <span class="why-us__exp-label">Years of<br/>Excellence</span>
+            </div>
+          </div>
+
+          <div class="why-us__content">
+            <span class="section-tag">Why Choose Us</span>
+            <h2 class="section-title">We're Passionate About Your Vehicle</h2>
+            <p class="why-us__lead">At First Response Car Detailing, we believe your car deserves the same care and attention a first responder brings to every call — fast, precise, and thorough.</p>
+            <p class="why-us__text">We use only premium, professional-grade products combined with proven techniques to deliver results that exceed expectations. Every detail matters to us — from the roof to the rocker panels, and everywhere in between.</p>
+
+            <div class="why-us__features">
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature__text">
+                  <h4>Premium Products Only</h4>
+                  <p>We use professional-grade detailing products that protect and enhance your vehicle's finish.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature__text">
+                  <h4>Attention to Detail</h4>
+                  <p>No corner is left uncleaned. We detail every inch of your vehicle with care and precision.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature__text">
+                  <h4>Satisfaction Guaranteed</h4>
+                  <p>We're not done until you're 100% happy. Your satisfaction is our top priority.</p>
+                </div>
+              </div>
+              <div class="feature">
+                <div class="feature__icon">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature__text">
+                  <h4>Eco-Friendly Practices</h4>
+                  <p>We use water-efficient methods and biodegradable products wherever possible.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="why-us__actions">
+              <a href="#contact" class="btn btn--primary">Book a Detail</a>
+              <a href="tel:+15104550100" class="btn btn--outline">Call (510) 455-0100</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="process">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">How It Works</span>
+          <h2 class="section-title">Simple Booking Process</h2>
+        </div>
+        <div class="process__steps">
+          <div class="process__step">
+            <div class="process__step-num">01</div>
+            <div class="process__step-icon">
+              <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <h3>Contact Us</h3>
+            <p>Call, email, or fill out our quote form to tell us about your vehicle and what you need.</p>
+          </div>
+          <div class="process__connector" aria-hidden="true"></div>
+          <div class="process__step">
+            <div class="process__step-num">02</div>
+            <div class="process__step-icon">
+              <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3>Schedule &amp; Quote</h3>
+            <p>We'll provide a transparent quote and schedule a convenient appointment time for you.</p>
+          </div>
+          <div class="process__connector" aria-hidden="true"></div>
+          <div class="process__step">
+            <div class="process__step-num">03</div>
+            <div class="process__step-icon">
+              <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/></svg>
+            </div>
+            <h3>We Detail Your Car</h3>
+            <p>Our expert technicians meticulously detail your vehicle to the highest standards.</p>
+          </div>
+          <div class="process__connector" aria-hidden="true"></div>
+          <div class="process__step">
+            <div class="process__step-num">04</div>
+            <div class="process__step-icon">
+              <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Enjoy the Results</h3>
+            <p>Drive away in a spotless, showroom-quality vehicle — and tell your friends!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Customer Reviews</span>
+          <h2 class="section-title">What Our Customers Say</h2>
+          <p class="section-subtitle">Don't just take our word for it — hear from real customers who trust First Response Car Detailing.</p>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "Absolutely incredible work! My 2019 Mustang looks better than it did the day I bought it. The paint correction removed scratches I thought were permanent. Worth every penny!"
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">JM</div>
+              <div>
+                <div class="testimonial-card__name">James M.</div>
+                <div class="testimonial-card__vehicle">2019 Ford Mustang GT</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "I had my SUV fully detailed before selling it and got $2,000 more than I expected at trade-in. First Response made it look brand new. Highly recommend the full package!"
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">SR</div>
+              <div>
+                <div class="testimonial-card__name">Sarah R.</div>
+                <div class="testimonial-card__vehicle">2020 Toyota 4Runner</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "The ceramic coating they applied is phenomenal. Six months later my car still beads water like crazy and washes off in minutes. Best investment I've made for my vehicle."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">DL</div>
+              <div>
+                <div class="testimonial-card__name">David L.</div>
+                <div class="testimonial-card__vehicle">2022 BMW M4</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "They detailed my work truck and it looks amazing. The interior deep clean removed stains I had given up on. Professional, friendly, and fast. I'm a customer for life."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">MK</div>
+              <div>
+                <div class="testimonial-card__name">Mike K.</div>
+                <div class="testimonial-card__vehicle">2018 Ram 1500</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "Brought my mom's car in as a surprise gift. When she saw it she cried — it looked exactly like it did when it was new. First Response went above and beyond. Amazing!"
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">AP</div>
+              <div>
+                <div class="testimonial-card__name">Angela P.</div>
+                <div class="testimonial-card__vehicle">2015 Honda Accord</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★★★★★</span>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              "Fast, professional, and the results are unreal. My Tesla's paint looks flawless after the paint correction. These guys really know what they're doing. Book them!"
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">RC</div>
+              <div>
+                <div class="testimonial-card__name">Ryan C.</div>
+                <div class="testimonial-card__vehicle">2023 Tesla Model 3</div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Book Your Detail Today</h2>
+          <p class="section-subtitle">Ready for a showroom-quality clean? Contact us for a free quote or to schedule your appointment.</p>
+        </div>
+
+        <div class="contact__grid">
+
+          <div class="contact__info">
+            <div class="contact__info-block">
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Phone</div>
+                  <a href="tel:+15104550100" class="contact__info-value">(510) 455-0100</a>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Email</div>
+                  <a href="mailto:info@firstresponsedetailing.com" class="contact__info-value">info@firstresponsedetailing.com</a>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Location</div>
+                  <span class="contact__info-value">Serving the Greater Bay Area, CA</span>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon">
+                  <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Hours</div>
+                  <span class="contact__info-value">Mon–Sat: 8:00 AM – 6:00 PM<br/>Sun: By Appointment</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact__cta-block">
+              <h3>Ready to Book?</h3>
+              <p>Call us directly for the fastest response — we'll get your vehicle looking its best!</p>
+              <a href="tel:+15104550100" class="btn btn--primary btn--lg btn--block">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                Call (510) 455-0100
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__form-wrap">
+            <form class="contact__form" id="quote-form" novalidate>
+              <h3 class="contact__form-title">Get a Free Quote</h3>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="first-name" name="first-name" placeholder="John" required autocomplete="given-name" />
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="last-name" name="last-name" placeholder="Smith" required autocomplete="family-name" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email" />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(510) 555-0000" autocomplete="tel" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="vehicle">Vehicle (Year, Make, Model) <span aria-hidden="true">*</span></label>
+                <input type="text" id="vehicle" name="vehicle" placeholder="e.g. 2021 Toyota Camry" required />
+              </div>
+
+              <div class="form-group">
+                <label for="service">Service Interested In <span aria-hidden="true">*</span></label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Select a service...</option>
+                  <option value="exterior">Exterior Detail</option>
+                  <option value="interior">Interior Detail</option>
+                  <option value="full">Full Detail Package</option>
+                  <option value="paint-correction">Paint Correction</option>
+                  <option value="ceramic">Ceramic Coating</option>
+                  <option value="engine">Engine Bay Cleaning</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Additional Details</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us more about your vehicle's condition, specific concerns, or questions..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg btn--block">Send My Quote Request</button>
+              <p class="form-note">We typically respond within 1–2 hours during business hours.</p>
+            </form>
+            <div class="contact__form-success" id="form-success" aria-live="polite" hidden>
+              <div class="success-icon">
+                <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <h3>Quote Request Sent!</h3>
+              <p>Thanks! We'll be in touch within 1–2 hours. If you need a faster response, call us at <a href="tel:+15104550100">(510) 455-0100</a>.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#home" class="nav__logo footer__logo">
+            <span class="nav__logo-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="32" height="32" rx="6" fill="#e63946"/>
+                <path d="M5 20L8 13h16l3 7H5z" fill="white"/>
+                <path d="M8 13l3-5h10l3 5" fill="white" opacity="0.7"/>
+                <circle cx="10" cy="21" r="2.5" fill="#1a1a2e"/>
+                <circle cx="22" cy="21" r="2.5" fill="#1a1a2e"/>
+              </svg>
+            </span>
+            <span class="nav__logo-text">First Response<br /><span class="nav__logo-sub">Car Detailing</span></span>
+          </a>
+          <p class="footer__tagline">Professional auto detailing services that bring your vehicle back to showroom condition. Precision work. Guaranteed results.</p>
+        </div>
+
+        <div class="footer__links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Exterior Detail</a></li>
+            <li><a href="#services">Interior Detail</a></li>
+            <li><a href="#services">Full Detail Package</a></li>
+            <li><a href="#services">Paint Correction</a></li>
+            <li><a href="#services">Ceramic Coating</a></li>
+            <li><a href="#services">Engine Bay Cleaning</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">About Us</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h4>Contact Info</h4>
+          <ul>
+            <li>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              <a href="tel:+15104550100">(510) 455-0100</a>
+            </li>
+            <li>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:info@firstresponsedetailing.com">info@firstresponsedetailing.com</a>
+            </li>
+            <li>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Greater Bay Area, CA</span>
+            </li>
+            <li>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Mon–Sat: 8AM–6PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 First Response Car Detailing. All rights reserved.</p>
+        <p class="footer__credit">Professional Auto Detailing | Greater Bay Area, CA</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll back to top">
+    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
